@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryaishnavi/portfolio.git"
+  },
+  "author": "Surya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suryaishnavi/portfolio/issues"
+  },
+  "homepage": "https://github.com/suryaishnavi/portfolio#readme"
+}
