@@ -632,8 +632,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .mt-2 {
@@ -642,10 +642,6 @@ video {
 
 .ml-3 {
   margin-left: 0.75rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .flex {
@@ -664,16 +660,8 @@ video {
   height: 1.25rem;
 }
 
-.w-9\/12 {
-  width: 75%;
-}
-
 .w-5 {
   width: 1.25rem;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -682,10 +670,6 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
 }
 
 .items-center {
@@ -817,11 +801,6 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -840,15 +819,6 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.duration-100 {
-  transition-duration: 100ms;
-}
-
-.hover\:-translate-y-5:hover {
-  --tw-translate-y: -1.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-105:hover {
@@ -922,10 +892,6 @@ video {
     width: 66.666667%;
   }
 
-  .xl\:w-1\/12 {
-    width: 8.333333%;
-  }
-
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -943,16 +909,6 @@ video {
 
   .xl\:leading-normal {
     line-height: 1.5;
-  }
-
-  .xl\:hover\:-translate-y-5:hover {
-    --tw-translate-y: -1.25rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:hover\:-translate-y-4:hover {
-    --tw-translate-y: -1rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .xl\:hover\:-translate-y-3:hover {
@@ -987,12 +943,12 @@ video {
     width: 50%;
   }
 
-  .\32xl\:w-4\/12 {
-    width: 33.333333%;
-  }
-
   .\32xl\:w-9\/12 {
     width: 75%;
+  }
+
+  .\32xl\:w-4\/12 {
+    width: 33.333333%;
   }
 
   .\32xl\:text-5xl {
