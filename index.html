@@ -32,6 +32,7 @@
     <meta name="theme-color" content="#ffffff" />
     <!-- Style Sheets & fonts -->
     <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="dist/custom.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -411,19 +412,12 @@
             Get In Touch
           </h1>
           <div class="flex flex-row content-center">
-            <button title="Click to copy email address"
-              onclick="navigator.clipboard.writeText('suryabhaskarreddy@hotmail.com')"
-              class="md:text-xl bg-slate-200 rounded-lg p-4 text-black font-semibold font-jost"
-            >
+            <button data-tooltip="Click to Copy Email" data-clicked="Copied to Clipboard"
+              onclick="navigator.clipboard.writeText('suryabhaskarreddy@yahoo.in')"
+              class="md:text-xl bg-slate-200 rounded-lg p-4 text-black font-semibold font-jost">
               suryabhaskarreddy@yahoo.in
             </button>
-            <!-- <button onclick="navigator.clipboard.writeText('suryabhaskarreddy@hotmail.com')" class="bg-blue-200 ml-5 rounded-lg p-4">
-                <svg fill="#1D4ED8" viewBox="0 -1 20 24" class="flex content-center h-10 w-10">
-                  <path
-                    d="M14 0H2C0.9 0 0 0.9 0 2V16H2V2H14V0ZM17 4H6C4.9 4 4 4.9 4 6V20C4 21.1 4.9 22 6 22H17C18.1 22 19 21.1 19 20V6C19 4.9 18.1 4 17 4ZM17 20H6V6H17V20Z"
-                  />
-                </svg>
-              </button> -->
+           
           </div>
           <div class="flex flex-row mt-5">
             <span class="m-5">
@@ -528,4 +522,13 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/7b153cd9-0cb7-4a5c-9ff7-555c8dd968e3.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
 </html>
